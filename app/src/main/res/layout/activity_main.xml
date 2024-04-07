@@ -14,13 +14,12 @@
         android:id="@+id/total_question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Total Question"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:text="Question"
         android:textColor="#EEE0F1"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        />
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -77,10 +76,11 @@
         android:id="@+id/btn_submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#65E614"
-        android:text="Submit"
         android:layout_below="@id/choices_layout"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#1D62DC"
+        android:text="Submit"
         android:textColor="@color/black"
-        android:textSize="24sp"/>
+        android:textSize="24sp" />
 
 </RelativeLayout>
